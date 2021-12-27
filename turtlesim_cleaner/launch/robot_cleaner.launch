@@ -1,0 +1,8 @@
+<!-- maze.launch: launch stage with a maze_solver node -->
+
+<launch>
+	
+  <node name="turtlesim_node" pkg="turtlesim" type="turtlesim_node" output="screen"/>
+  <node name= "robot_cleaner" pkg="turtlesim_cleaner" type="robot_cleaner" output="screen"/>
+
+</launch>  
